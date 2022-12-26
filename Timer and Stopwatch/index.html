@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Timer and Stopwatch</title>
+        <link rel="stylesheet" href="style.css">
+        <h1 style="text-align: center;">Timer And Stopwatch <br><br>(Maithili Sude)</h1>
+        
+    </head>
+    <body>
+        <div class="timer">
+        <h1 style="text-align: center;">Timer</h1>
+        <div class="box1">
+            <h1 style="text-align: center;" class="h11" id="countdown"> 00 : 00 </h1>
+        <button class="b1" onclick="s1()" id="stimer">start</button>
+        <button class="b2" onclick="r1()">Reset</button>
+        </div>
+        </div>
+        
+        <div class="stopwatch">
+            <h1 style="text-align: center;">Stopwatch</h1>
+            <div class="box2">
+                <div id="time">
+                    <span class="digit" id="hr">
+                        00</span>
+                      <span class="txt">:</span>
+                      <span class="digit" id="min">
+                        00</span>
+                      <span class="txt">:</span>
+                      <span class="digit" id="sec">
+                        00</span>
+                      <span class="txt">:</span>
+                      <span class="digit" id="count">
+                        00</span>
+                </div>
+           
+                    
+            <div class="btn">
+            <button class="b3" id="st" onclick="starttimer()">start</button>
+            <button class="b4" id="stop" onclick="stoptimer()">Pause</button>
+            <button class="b5" id="reset" onclick="resettimer()">Reset</button>           
+         </div>
+            
+        </div>
+        </div>
+        
+    </body>
+    <script src="script.js">
+        
+    </script>
+</html>

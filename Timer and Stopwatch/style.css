@@ -1,0 +1,83 @@
+.timer{
+    background-color: lightcoral;
+    width: 45%;
+    float: left;
+    height:500px;
+    margin-left: 30px;
+    
+    
+}
+
+.stopwatch{
+    background-color: lightblue;
+    width: 45%;
+    float: right;
+    height:500px;
+    margin-right: 30px;
+  
+}
+
+.box1{
+  width: 300px;
+  border: 15px solid rgb(79, 80, 79);
+  padding: 50px;
+  margin-top: 100px;
+  margin-left: 120px;
+  height: 100px;
+}
+
+.box2{
+  width: 300px;
+  border: 15px solid rgb(79, 80, 79);
+  padding: 50px;
+  margin-top: 100px;
+  margin-left:150px ;
+  height: 100px;
+}
+
+.b1,.b2,.b3,.b4,.b5{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.b1
+{
+ margin-left: 10%
+}
+.b2
+{
+ margin-left:30%;
+}
+.b3
+{
+    margin-left:1%;
+}
+.b4
+{
+ margin-left: 10%;
+}
+.b5
+{
+margin-left:10% ;
+}
+.digit 
+{
+    font-size: 45px;
+    color: rgb(11, 11, 11);
+}
+.txt 
+{
+    font-size: 48px;
+    color: #000000;
+    
+}
+
+.disabledButton{
+    color: black !important;
+    background-color: white !important;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+}
