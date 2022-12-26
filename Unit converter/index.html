@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Unit Coverter</title>
+    <link rel="stylesheet" href="style.css">
+    <h1 style="text-align: center; color: white;">All In One Unit Converter <br><br>(Maithili Sude)</h1><br>
+</head>
+<body>
+    <h2 style="text-align: center; color: white;"><br>Type a value in any of the fields to convert between Length measurements</h2>
+ <div class="container">
+    <div class="container1">
+        <p>Length Converter</p>
+        <div class="inputContainer1">
+            <label for="feet">Feet</label><input type="number" name="" id="feet"  oninput="convertToOthers('feet',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="meter">Meters</label><input type="number" name="" id="meter" oninput="convertToOthers('meter',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="inches">Inches</label><input type="number" name="" id="inches" oninput="convertToOthers('inch',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="cm">Centimeters</label><input type="number" name="" id="cm" oninput="convertToOthers('cm',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="yards">Yards</label><input type="number" name="" id="yards" oninput="convertToOthers('yard',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="km">Kilometers</label><input type="number" name="" id="km" oninput="convertToOthers('km',this.value)">
+        </div>
+        <div class="inputContainer1">
+            <label for="miles">Miles</label><input type="number" name="" id="miles" oninput="convertToOthers('mile',this.value)">
+        </div>
+    </div>   
+    
+    <div class="container2">
+        <p>Time Converter</p>
+        <div class="inputContainer2">
+            <label for="seconds">Seconds</label><input type="number" name="2" id="seconds"  oninput="convertToOthers('seconds',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="miliseconds">Miliseconds</label><input type="number" name="2" id="miliseconds" oninput="convertToOthers('miliseconds',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="minutes">Minutes</label><input type="number" name="2" id="minutes" oninput="convertToOthers('minutes',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="hours">Hours</label><input type="number" name="2" id="hours" oninput="convertToOthers('hours',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="days">Days</label><input type="number" name="2" id="days" oninput="convertToOthers('days',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="weeks">Weeks</label><input type="number" name="2" id="weeks" oninput="convertToOthers('weeks',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="months">Months</label><input type="number" name="2" id="months" oninput="convertToOthers('months',this.value)">
+        </div>
+        <div class="inputContainer2">
+            <label for="years">Years</label><input type="number" name="2" id="years" oninput="convertToOthers('years',this.value)">
+        </div>
+        
+    </div>     
+
+    <div class="container3">
+        <p>Temperature Converter</p>
+        <div class="inputContainer3">
+            <label for="celsius">Celsius</label><input type="number" name="" id="celsius"  oninput="convertToOthers('celsius',this.value)">
+        </div>
+        <div class="inputContainer3">
+            <label for="fahrenheit">Fahrenheit</label><input type="number" name="" id="fahrenheit" oninput="convertToOthers('fahrenheit',this.value)">
+        </div>
+        <div class="inputContainer3">
+            <label for="kelvin">Kelvin</label><input type="number" name="" id="kelvin" oninput="convertToOthers('kelvin',this.value)">
+        </div>
+    </div>   
+
+    <div class="container4">
+        <p>Area Converter</p>
+        <div class="inputContainer4">
+            <label for="sqm">Square meters</label><input type="number" name="" id="sqm"  oninput="convertToOthers('sqm',this.value)">
+        </div>
+        <div class="inputContainer4">
+            <label for="sqkm">Square Kilometers</label><input type="number" name="" id="sqkm" oninput="convertToOthers('sqkm',this.value)">
+        </div>
+        <div class="inputContainer4">
+            <label for="sqcm">Square Centimeter</label><input type="number" name="" id="sqcm" oninput="convertToOthers('sqcm',this.value)">
+        </div>
+    </div>
+
+    <div class="container5">
+        <p>Volume Converter</p>
+        <div class="inputContainer5">
+            <label for="cm1">Cublic meters</label><input type="number" name="" id="cm1"  oninput="convertToOthers('cm1',this.value)">
+        </div>
+        <div class="inputContainer5">
+            <label for="ckm">Cublic Kilometers</label><input type="number" name="" id="ckm" oninput="convertToOthers('ckm',this.value)">
+        </div>
+        <div class="inputContainer5">
+            <label for="ccm">Cublic Centimeter</label><input type="number" name="" id="ccm" oninput="convertToOthers('ccm',this.value)">
+        </div>
+    </div>
+
+    <div class="container6">
+        <p>Weight Converter</p>
+        <div class="inputContainer6">
+            <label for="kg">Kilograms</label><input type="number" name="" id="kg"  oninput="convertToOthers('kg',this.value)">
+        </div>
+        <div class="inputContainer6">
+            <label for="g">Grams</label><input type="number" name="" id="g" oninput="convertToOthers('g',this.value)">
+        </div>
+        <div class="inputContainer6">
+            <label for="mg">Miligrams</label><input type="number" name="" id="mg" oninput="convertToOthers('mg',this.value)">
+        </div>
+    </div>
+ </div>
+    <script src="script.js"></script>
+</body>
+</html>
